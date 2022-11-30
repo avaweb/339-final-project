@@ -1,0 +1,33 @@
+#events-container { /* when you do align items within container, does it know to move each item within */
+    display: inline-flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+button {
+    display: flex;
+    text-align: center;
+}
+
+.card img {
+    width: 400px;
+}
+
+.card {
+    margin: 20px 20px 20px 20px;
+    border: dotted 5px blue;
+}
+
+@media screen and (min-width:700px) {
+	#event-container {
+        justify-content: center;
+	}
+}
+
+@media screen and (min-width:900px) {
+	#event-container {
+        justify-content: center;
+	}
+}
